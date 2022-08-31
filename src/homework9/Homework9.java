@@ -6,7 +6,7 @@ public class Homework9 {
         System.out.println();
         System.out.println("First book");
 
-        //First Book
+        //First Book.
 
         Author author = new Author("Stephenie", "Mayer");
         Book book = new Book("Twilight", 2005, author);
@@ -25,7 +25,7 @@ public class Homework9 {
         System.out.println();
         System.out.println("Second book");
 
-        //Second Book
+        //Second Book.
 
         Author authorBook2 = new Author("Brit", "Bennet");
         Book book2 = new Book("The Vanishing Half", 2020, author);
@@ -35,7 +35,7 @@ public class Homework9 {
         System.out.println("Publishing year - " + book2.getPublishingYear());
         System.out.println("Author - " + authorBook2.getFirstName() + authorBook2.getSecondName());
 
-       //Year change
+       //Year change.
 
         book2.setPublishingYear(2001);
         System.out.println("New publishing year - " + book2.getPublishingYear());
